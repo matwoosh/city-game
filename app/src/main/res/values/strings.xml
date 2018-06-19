@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">heboy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="games">Choose a game:</string>
+    <string name="zajezdnia_description">" W starej zajezdni w dniach 23-25 października odbywać się będzie jeden z największych studenckich hackatonów na świecie, a zdecydowanie największy w Polsce. I ty możesz wczuć się w jego klimat dołączając do rzeszy młodych, spragnionych wiedzy hackerów. Napisz program, poczęstuj się babeczką, a może nawet zaznaj profesjonalnego masażu."</string>
+    <string name="pierwszy_beacon">Nasza przygoda zaczyna się nie gdzie indziej niż w budynku Starej Zajezdni przy ulicy Świętego Wawrzyńca 12 w Krakowie. Po wejściu do środka aktywuj aplikację i skieruj się do stolika, przy którym wszystko się zaczęło...</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="100dp"
+        android:text="@string/zajezdnia_description"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26"
+        android:paddingLeft="5pt"
+        android:paddingTop="5pt"
+        android:paddingRight="5pt" />
+
+    <ImageView android:layout_width="228dp" android:layout_height="155dp"
+        android:src="@drawable/foto" android:id="@+id/imageView3"
+        android:contentDescription="foto" android:scaleType="fitStart"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Charakterystyka:\n
+&#8226; szacunkowy czas: ~5min\n
+&#8226; dystans: ~600m\n
+&#8226; tematyka: hackaton"
+        android:id="@+id/textView5"
+        android:layout_weight="0.26"
+        android:paddingLeft="5pt"
+        android:paddingTop="5pt"
+        android:paddingRight="5pt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll me"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

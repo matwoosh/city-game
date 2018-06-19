@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_achievements" android:icon="@drawable/achievements"
+            android:title="Ranking" />
+        <item android:id="@+id/nav_rules" android:icon="@drawable/rules"
+            android:title="Rules" />
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item android:id="@+id/nav_help" android:icon="@drawable/help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
